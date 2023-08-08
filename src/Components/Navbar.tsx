@@ -1,10 +1,15 @@
+import logo from "./logo.png";
+
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav
+        className="navbar fixed-top navbar-expand-lg"
+        style={{ backgroundColor: "#C0A742" }}
+      >
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <img src="logo.png" alt="forexGuru" />
+            <img src={logo} alt="forexGuru" />
           </a>
           <button
             className="navbar-toggler"
